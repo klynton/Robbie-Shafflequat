@@ -1,0 +1,31 @@
+body
+{
+	background-color: #000;
+}
+
+canvas
+{
+	position: absolute;
+	left: 50px;
+	top: 50px;
+}
+
+#canvasBg
+{
+	z-index: 0;
+}
+
+#canvasPlayer
+{
+	z-index: 1;
+}
+
+#canvasText
+{
+	z-index: 2;
+}
+
+#canvasGame
+{
+	z-index: 3;
+}
